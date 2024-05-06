@@ -2,26 +2,37 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement; // For scene management
+using UnityEngine.UIElements;
 
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenuUI;
-    public GameObject settingsPanel; 
-    public GameObject resumeButton;
-    public GameObject settingsButton;
-    public GameObject returnMainMenuButton;
+    private UIDocument document;
+    private Button resumeButton;
+    private Button settingsButton;
+    private Button homeButton;
+    private Button settingsBackButton;
+    private VisualElement pauseMenuPanel;
+    private VisualElement settingsMenu; 
     private bool isPaused = false;
 
     void Start()
     {
-        pauseMenuUI.SetActive(false); // Ensure the pause menu is hidden at start
-        settingsPanel.SetActive(false); // Also ensure the settings panel is hidden at start
+        pauseMenuPanel.style.display = DisplayStyle.None;
+        settingsMenu.style.display = DisplayStyle.None;
     }
     void Awake()
     {
-        // resumeButton.GetComponent<Button>().onClick.AddListener(Resume);
-        // settingsButton.GetComponent<Button>().onClick.AddListener(OpenSettings);
-        // returnMainMenuButton.GetComponent<Button>().onClick.AddListener(ReturnToMainMenu);
+        pauseMenuPanel = document.rootVisualElement.Q<VisualElement>("PauseMenu");
+        settingsMenu = document.rootVisualElement.Q<VisualElement>("SettingsMenu"); 
+        resumeButton = document.rootVisualElement.Q<Button>("ResumeButton");
+        settingsButton = document.rootVisualElement.Q<Button>("SettingsButton");
+        homeButton = document.rootVisualElement.Q<Button>("HomeButton");
+        settingsBackButton = document.rootVisualElement.Q<Button>("SettingsBackButton");
+
+        //event listeners
+        homeButton.clicked += HomeButtonClicked;
+        settingsButton.clicked += SettingsButtonClicked;
+        resumeButton.clicked += ResumeButtonClicked;
     }
     void Update()
     {
@@ -35,35 +46,36 @@ public class PauseMenu : MonoBehaviour
     {
         if (isPaused)
         {
-            Resume();
+            ResumeButtonClicked();
         }
         else
         {
-            Pause();
+            PauseButtonClicked();
         }
     }
 
-    public void Pause()
+    public void PauseButtonClicked()
     {
-        pauseMenuUI.SetActive(true);
+        pauseMenuPanel.style.display = DisplayStyle.Flex;
         Time.timeScale = 0f; //pause
         isPaused = true;
     }
 
-    public void Resume()
+    public void ResumeButtonClicked()
     {
-        pauseMenuUI.SetActive(false);
-        settingsPanel.SetActive(false); 
+        pauseMenuPanel.style.display = DisplayStyle.None;
+        settingsMenu.style.display = DisplayStyle.None;
         Time.timeScale = 1f; //unpause
         isPaused = false;
     }
 
-    public void OpenSettings()
+    public void SettingsButtonClicked()
     {
-        settingsPanel.SetActive(true); 
+        pauseMenuPanel.style.display = DisplayStyle.None;
+        settingsMenu.style.display = DisplayStyle.Flex;
     }
 
-    public void ReturnToMainMenu()
+    public void HomeButtonClicked()
     {
         Time.timeScale = 1f; // reset time
         SceneManager.LoadScene("MainMenu"); 

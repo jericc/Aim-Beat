@@ -17,11 +17,11 @@ public class TargetBounds : MonoBehaviour
     {
         Vector3 center = col.center + transform.position;
 
-        float minX = center.x - col.size.x / 2f;
-        float maxX = center.x + col.size.x / 2f;
+        float minX = center.x - col.size.x * 1.5f;
+        float maxX = center.x + col.size.x * 1.5f;
 
-        float minY = center.y - col.size.y / 2f;
-        float maxY = center.y + col.size.y / 2f;
+        float minY = center.y + col.size.x/2f;
+        float maxY = center.y - col.size.x/2f;
 
         // float minZ = center.z - col.size.z / 2f;
         // float maxZ = center.z + col.size.z / 2f;
