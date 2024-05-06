@@ -15,7 +15,7 @@ C:/Users/Jeric/AimBeat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51213
+51108
 Successfully changed project path to: C:/Users/Jeric/AimBeat
 C:/Users/Jeric/AimBeat
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Jeric/AimBeat
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [181392] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 2329745904 [EditorId] 2329745904 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-51KK0MP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [45424] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 777897224 [EditorId] 777897224 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-51KK0MP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [181392] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 2329745904 [EditorId] 2329745904 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-51KK0MP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [45424] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 777897224 [EditorId] 777897224 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-51KK0MP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 1035.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 59.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.20f1 (61c2feb0970d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.144281 seconds.
-- Loaded All Assemblies, in  3.753 seconds
+Registered in 0.010291 seconds.
+- Loaded All Assemblies, in  0.284 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.172 seconds
-Domain Reload Profiling: 3924ms
-	BeginReloadAssembly (2768ms)
+- Finished resetting the current domain, in  0.188 seconds
+Domain Reload Profiling: 470ms
+	BeginReloadAssembly (80ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (242ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (179ms)
-	LoadAllAssembliesAndSetupDomain (555ms)
-		LoadAssemblies (2766ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (122ms)
+		LoadAssemblies (78ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (553ms)
-			TypeCache.Refresh (552ms)
-				TypeCache.ScanAssembly (395ms)
+		AnalyzeDomain (121ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (112ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (173ms)
+	FinalizeReload (188ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (137ms)
+		SetupLoadedEditorAssemblies (151ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (90ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 3924ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.241 seconds
-Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+- Loaded All Assemblies, in  1.028 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.375 seconds
-Domain Reload Profiling: 3612ms
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 1442ms
 	BeginReloadAssembly (103ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (3078ms)
-		LoadAssemblies (2773ms)
+	LoadAllAssembliesAndSetupDomain (864ms)
+		LoadAssemblies (814ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (367ms)
-			TypeCache.Refresh (354ms)
-				TypeCache.ScanAssembly (316ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (88ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (375ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (284ms)
+		SetupLoadedEditorAssemblies (317ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (42ms)
-			ProcessInitializeOnLoadAttributes (212ms)
-			ProcessInitializeOnLoadMethodAttributes (12ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
 			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3092 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (57.0 KB). Loaded Objects now: 3553.
-Memory consumption went from 122.8 MB to 122.7 MB.
-Total: 2.383200 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.050500 ms MarkObjects: 2.012600 ms  DeleteObjects: 0.062100 ms)
+Unloading 3132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3594.
+Memory consumption went from 124.4 MB to 124.3 MB.
+Total: 3.892100 ms (FindLiveObjects: 0.470200 ms CreateObjectMapping: 0.133100 ms MarkObjects: 3.180700 ms  DeleteObjects: 0.107400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,20 +183,2126 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 740893.154380 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay.png
-  artifactKey: Guid(056ee72c467a4e24d87541d42839ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay.png using Guid(056ee72c467a4e24d87541d42839ca72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2781fa534d99e0868ea459b59a172ee') in 0.039834 seconds
+  Time since last request: 13439.647096 seconds.
+  path: Assets/Scenes/TestScenes/New Scene.unity
+  artifactKey: Guid(2b7589775a2f0054ba445dc817a496e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScenes/New Scene.unity using Guid(2b7589775a2f0054ba445dc817a496e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd316c6a157f98d3292c09c60b8bf3e') in 0.002892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1448.145906 seconds.
+  path: Assets/MainMenuStyle.uss
+  artifactKey: Guid(95532aea6b61a8a4eac5f56abc4c5c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/MainMenuStyle.uss using Guid(95532aea6b61a8a4eac5f56abc4c5c31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed63d865606bd7ac150a677eb5a5b2a6') in 0.066487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scenes/TestScenes/JericPauseTest.unity
+  artifactKey: Guid(c6c18b7cf5c6ab5408765bb38874eb84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/TestScenes/JericPauseTest.unity using Guid(c6c18b7cf5c6ab5408765bb38874eb84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dffa8fc64e6cbf03b2faaa07ac051aca') in 0.007716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_diving.prefab
+  artifactKey: Guid(4e25b3e2ef4773d49a619ef2bb8e40fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_diving.prefab using Guid(4e25b3e2ef4773d49a619ef2bb8e40fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7dcfdade5f66966c88b4c4bedc89bdd8') in 0.031402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_explorer.prefab
+  artifactKey: Guid(8f4d3aba7cf16a84cb202852524c6500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_explorer.prefab using Guid(8f4d3aba7cf16a84cb202852524c6500) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1ba5d75650638870e4f8baec22963d3d') in 0.017000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Common/Materials/atlas-gradient-LPAP.mat
+  artifactKey: Guid(756229198fc4d8b4fb1281dbe621f61d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/atlas-gradient-LPAP.mat using Guid(756229198fc4d8b4fb1281dbe621f61d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fca199c2667249dd67813066bea1b67') in 0.043306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_chef.prefab
+  artifactKey: Guid(fbb3f2ec6a034d845a97b79bb2b17b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_chef.prefab using Guid(fbb3f2ec6a034d845a97b79bb2b17b20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50d187248d409b724eac8d8426ea58a9') in 0.018045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/R E A D M E.pdf
+  artifactKey: Guid(c3592b9f77a29ee4da1c69bbade82aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/R E A D M E.pdf using Guid(c3592b9f77a29ee4da1c69bbade82aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '610c0ee8ebe678855d80d19c46ee9366') in 0.005406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animator Controllers/MorphMask.mask
+  artifactKey: Guid(2723b603c24446e4ea9eb0c4c1b44ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animator Controllers/MorphMask.mask using Guid(2723b603c24446e4ea9eb0c4c1b44ba7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e12c1c90724461c945b2eea0776a8862') in 0.004974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/UI Toolkit/PauseMenuUXML 1.uxml
+  artifactKey: Guid(2967d9b990749d448aca2d186c5da524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/PauseMenuUXML 1.uxml using Guid(2967d9b990749d448aca2d186c5da524) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7d98010ad1938fd19a423808acaf1ca') in 0.015642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/UI Toolkit/placeholder.jpg
+  artifactKey: Guid(b914d4eb0ad0a69438d6c10124c15d2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/placeholder.jpg using Guid(b914d4eb0ad0a69438d6c10124c15d2f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '219405add9e53eb901d772a95c3e0621') in 0.037401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_doctor.prefab
+  artifactKey: Guid(8b2fe4c5094f890488506419dcfc565f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_doctor.prefab using Guid(8b2fe4c5094f890488506419dcfc565f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92ea0280f4070ba4d3c9b97cda758877') in 0.018741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/FBXImporter_Static.preset
+  artifactKey: Guid(9ea3c86e8d61c8b4197b4bccbaf0cdf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/FBXImporter_Static.preset using Guid(9ea3c86e8d61c8b4197b4bccbaf0cdf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfad3aeea778c4f06a772c2c5afa5a80') in 0.006435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_carpenter.prefab
+  artifactKey: Guid(5be1d507b292d1c4fa7bec88361366a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_carpenter.prefab using Guid(5be1d507b292d1c4fa7bec88361366a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fce59819f2763158627f35bf89f21a2') in 0.017077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Common/Common_PlaySound.cs
+  artifactKey: Guid(19062bfbf36bb40489759a4031f6b117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Common_PlaySound.cs using Guid(19062bfbf36bb40489759a4031f6b117) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a785a5b0a1c4bb5ae5c3fd0c5099d6b0') in 0.007071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Common/Textures/atlas-emission-LPAP.png
+  artifactKey: Guid(ec567cac695ac47bf83804b54a028165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Textures/atlas-emission-LPAP.png using Guid(ec567cac695ac47bf83804b54a028165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '450fac83c5bdc2ceb00f0760e26c8f27') in 0.017889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_astronaut.prefab
+  artifactKey: Guid(ba164ae58c4be4b4a8f5e34e4bb887eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_astronaut.prefab using Guid(ba164ae58c4be4b4a8f5e34e4bb887eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c2e5da06096c460312524765aeb4e80') in 0.019363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Common/Textures/atlas-source-LPAP.png
+  artifactKey: Guid(4107610479ba7664a9dda0663ad9a05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Textures/atlas-source-LPAP.png using Guid(4107610479ba7664a9dda0663ad9a05a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82ee14c3825db6199ef0e4ea83253072') in 0.023839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Common/Wander Script/Common_AudioManager.cs
+  artifactKey: Guid(ee744710697d4c043b8044651949c781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Wander Script/Common_AudioManager.cs using Guid(ee744710697d4c043b8044651949c781) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eda5cc202019e671beecab080929a97a') in 0.007548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Scenes/TestScenes/New Scene.unity
+  artifactKey: Guid(2b7589775a2f0054ba445dc817a496e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/TestScenes/New Scene.unity using Guid(2b7589775a2f0054ba445dc817a496e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca93474c193f1f964d8082766b0e87df') in 0.005196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Ninja.overrideController
+  artifactKey: Guid(bd805226422e2bc48a08c6bc98988d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Ninja.overrideController using Guid(bd805226422e2bc48a08c6bc98988d59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e42c4d62cc418a8452b4ddd185d677fd') in 0.015093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Common/Common_AnimationControl.cs
+  artifactKey: Guid(33cc093b2f4fc9448a750c3c3aa3b2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Common_AnimationControl.cs using Guid(33cc093b2f4fc9448a750c3c3aa3b2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5cf2808f27578aa379a138abe84f3346') in 0.006933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c80dc3ed414aab5883fad20ff38f4e35') in 0.005587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- NavMesh/NavMesh - People.asset
+  artifactKey: Guid(ac67604f4a14695449947f4bb35ad0a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- NavMesh/NavMesh - People.asset using Guid(ac67604f4a14695449947f4bb35ad0a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ed389f203a61d18511a1c9a5a1e50c7') in 0.008291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Common/Textures/atlas-albedo-LPAP.png
+  artifactKey: Guid(6fbc58a658fbc5d42838557f49347cac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Textures/atlas-albedo-LPAP.png using Guid(6fbc58a658fbc5d42838557f49347cac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5851dc20e370f77e1e21b7823289120e') in 0.023943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/boy_coat_winter.prefab
+  artifactKey: Guid(a6f878473fa4d9344aa7df0acb514274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/boy_coat_winter.prefab using Guid(a6f878473fa4d9344aa7df0acb514274) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cb317dfb5d94857fa9e04ec207121a6') in 0.020839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 244
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/girl_coat_winter.prefab
+  artifactKey: Guid(63d46a8b1d991074bbef9c4f392e4842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/girl_coat_winter.prefab using Guid(63d46a8b1d991074bbef9c4f392e4842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '16ab45e1572ccb490e9da969dda3e51f') in 0.019993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 243
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI Toolkit/SynthaNovaRegular-jE1ql.ttf
+  artifactKey: Guid(c7bbc86867a8c1941bd7a684acbd1717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/SynthaNovaRegular-jE1ql.ttf using Guid(c7bbc86867a8c1941bd7a684acbd1717) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b8a5826552c4e85cf0ffa25a55cdf59') in 0.012191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Particles/Wizard Idle Ping Pong.prefab
+  artifactKey: Guid(44b922f233e5775438252afec5d3170f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Particles/Wizard Idle Ping Pong.prefab using Guid(44b922f233e5775438252afec5d3170f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14e75962a769680ec0bf35c69b34a1ba') in 0.055801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_casual_shorts.prefab
+  artifactKey: Guid(e200f386673f96d47ad9c9b1850bcbfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_casual_shorts.prefab using Guid(e200f386673f96d47ad9c9b1850bcbfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6ed6d3828bcd8d4849f5f94e03d95d32') in 0.020767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Particles/Wizard Idle Burst.prefab
+  artifactKey: Guid(fe87bd57977737c47833c6bf36f57603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Particles/Wizard Idle Burst.prefab using Guid(fe87bd57977737c47833c6bf36f57603) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c5803e5f413cb54f5cea6f8c89162fa') in 0.037387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/UI Toolkit/AimBeatUXML.uxml
+  artifactKey: Guid(75023cf74a646d44fb8f47f2fa22bb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/AimBeatUXML.uxml using Guid(75023cf74a646d44fb8f47f2fa22bb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e20dab041968802cfd98c9781353860') in 0.012738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(9a656fc3ee036c346ad7378af54e4b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(9a656fc3ee036c346ad7378af54e4b7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c37b5329ddee827e892da5ce02caf864') in 0.042121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_cyclist.prefab
+  artifactKey: Guid(e6a70c71379c8104b9feece91413d360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_cyclist.prefab using Guid(e6a70c71379c8104b9feece91413d360) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9c8325ffc7f1735f90372101c86f41b') in 0.017155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_reporter.prefab
+  artifactKey: Guid(97211c984f99db543b6c70bd84803d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_reporter.prefab using Guid(97211c984f99db543b6c70bd84803d87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92c7642410684d56bbaae60c4d5da0bd') in 0.017971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_paramedic.prefab
+  artifactKey: Guid(970393d6aa0d39a459753be9d83dd6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_paramedic.prefab using Guid(970393d6aa0d39a459753be9d83dd6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7f6eea6ab03b59546926d10e25d11cc') in 0.015433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_naval_officer.prefab
+  artifactKey: Guid(522e356498f385e43a20a1d675e66e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_naval_officer.prefab using Guid(522e356498f385e43a20a1d675e66e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7402a2bac29b01c83810ead9c0b17e13') in 0.016769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_zombie.prefab
+  artifactKey: Guid(ceb5a53aed3cf8443819d5029a9ab6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_zombie.prefab using Guid(ceb5a53aed3cf8443819d5029a9ab6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdc597c7c5461bdad950d740340b9ae9') in 0.020774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_wizard.prefab
+  artifactKey: Guid(4359f314b40b2294092e7429473aa7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_wizard.prefab using Guid(4359f314b40b2294092e7429473aa7b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f44e1689f80162e790d83e4d577e5ae4') in 0.048911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 227
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_business.prefab
+  artifactKey: Guid(dc1f64e223f359f4ea5a04a2e298df00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_business.prefab using Guid(dc1f64e223f359f4ea5a04a2e298df00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bd93919a02bf00c3c618e616e31df04') in 0.019739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_swimsuit.prefab
+  artifactKey: Guid(a31433aea2489ad4386feae430b53bea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_swimsuit.prefab using Guid(a31433aea2489ad4386feae430b53bea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74f4e21adf1192f2d8977fe43e6c2b1a') in 0.019208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_scientist.prefab
+  artifactKey: Guid(bd80a1914c4fa8a4cbbe69efee4e2be9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_scientist.prefab using Guid(bd80a1914c4fa8a4cbbe69efee4e2be9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9a8336c18e7d59a4cb20f9cb2055b29') in 0.018609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_ninja.prefab
+  artifactKey: Guid(753880c321eb2764cb095f2db039f67b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_ninja.prefab using Guid(753880c321eb2764cb095f2db039f67b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a0d399fa0b958f99c7641decf628678') in 0.020209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 228
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_basketball_player.prefab
+  artifactKey: Guid(812dbc412913bee4487cb31c908cd004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_basketball_player.prefab using Guid(812dbc412913bee4487cb31c908cd004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '939df88cea53613e5caadaadb7282691') in 0.016875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_soldier.prefab
+  artifactKey: Guid(cf8f79c9d195f1f48a0325ccfd2a0641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_soldier.prefab using Guid(cf8f79c9d195f1f48a0325ccfd2a0641) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ff45454603dfc0c9049100f06b4b2fc') in 0.018826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_hazard.prefab
+  artifactKey: Guid(56d33b5e94ab4fd4caf7108b0188bfb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_hazard.prefab using Guid(56d33b5e94ab4fd4caf7108b0188bfb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1482445c7fc060720e123dbd1b8192a2') in 0.019348 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_boxer.prefab
+  artifactKey: Guid(feb19c6f711ffc9408e69b9878f98aa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_boxer.prefab using Guid(feb19c6f711ffc9408e69b9878f98aa2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '01af09a94a11568ccecd47b8cfd42e27') in 0.019638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller
+  artifactKey: Guid(eb2a1020c5ecef340a352a90c3370616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animator Controllers/3RD Person.controller using Guid(eb2a1020c5ecef340a352a90c3370616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '863d229c25173deb686d95e861079904') in 0.007794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_sumo.prefab
+  artifactKey: Guid(5e2e5f65637931c41a1b61051262e4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_sumo.prefab using Guid(5e2e5f65637931c41a1b61051262e4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6d2034e9394b52fceaa14a614d2d88d9') in 0.019312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_punk.prefab
+  artifactKey: Guid(dd2361a186ad8df4e86c3dd346aabdc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_punk.prefab using Guid(dd2361a186ad8df4e86c3dd346aabdc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '68ef5e475851092785542a301f691f72') in 0.019260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animator Controllers/FacialAnimation.controller
+  artifactKey: Guid(809f7bab402156749b3593fff8a78483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animator Controllers/FacialAnimation.controller using Guid(809f7bab402156749b3593fff8a78483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1da6da490d2b3b4b011b41f209fb7c06') in 0.008228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 61
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_farm.prefab
+  artifactKey: Guid(da168ff25f7bb7342a53246694522fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_farm.prefab using Guid(da168ff25f7bb7342a53246694522fa8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8165a66dd59f298dd14c178f8b767be6') in 0.018594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_cowgirl.prefab
+  artifactKey: Guid(16dfe69a239e80447a27c81330fcbe6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_cowgirl.prefab using Guid(16dfe69a239e80447a27c81330fcbe6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c09181ef05806605cca814aca541232d') in 0.019084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/3RD Person.prefab
+  artifactKey: Guid(45fda48861dbd464d86471f1c1e79872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/3RD Person.prefab using Guid(45fda48861dbd464d86471f1c1e79872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17377a1dd8405d6f68f9ea500bd167c9') in 0.017186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 494
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_mechanic.prefab
+  artifactKey: Guid(b5448b89dfe30d6418a0776272ea153b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_mechanic.prefab using Guid(b5448b89dfe30d6418a0776272ea153b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3ddee2dad64301283ba13b5b8d91ada') in 0.018140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/UI Toolkit/SynthaNovaBlack-JRZv7 SDF.asset
+  artifactKey: Guid(11f42216ed7f01e4a873ecbcb70167dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/SynthaNovaBlack-JRZv7 SDF.asset using Guid(11f42216ed7f01e4a873ecbcb70167dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in .\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:588 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in .\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:555 
+UnityEditor.AssetDatabase:LoadMainAssetAtPath(String)
+UnityEditor.Search.AssetIndexer:IndexProperties(Int32&, String&, Boolean&)
+UnityEditor.Search.AssetIndexer:IndexDocument(String, Boolean)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset(AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 588)
+
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2003c7e132c1be0cbe0c503bc5bdc987') in 0.027097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Materials/Light Rays.mat
+  artifactKey: Guid(269c0041a49f6f444b6446ef11a5bfcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Materials/Light Rays.mat using Guid(269c0041a49f6f444b6446ef11a5bfcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96eda082a93ad25203abd892a3bd7e38') in 0.031459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Zombie Controller.controller
+  artifactKey: Guid(50b851570ec387e4fa3c819637700de6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Zombie Controller.controller using Guid(50b851570ec387e4fa3c819637700de6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '159f9aec667b0c248a98b679c994b4a5') in 0.013293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_race_driver.prefab
+  artifactKey: Guid(3b1be64f7556d8b45b1290aa111db143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_race_driver.prefab using Guid(3b1be64f7556d8b45b1290aa111db143) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '298640b097949a94c300d7578ab2672b') in 0.019013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_actionhero.prefab
+  artifactKey: Guid(db6a109d4355e5c449f29f5288360287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_actionhero.prefab using Guid(db6a109d4355e5c449f29f5288360287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '502a5674c9131738fc6fd6d9fac7217c') in 0.017357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_clown.prefab
+  artifactKey: Guid(daf36a416f8af694ea35df9267fb00a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_clown.prefab using Guid(daf36a416f8af694ea35df9267fb00a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b176dec0c4e2aff97ec08c546e8dee8b') in 0.016809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_pirate.prefab
+  artifactKey: Guid(40fd7d0e39ddc334c8fa234d4205dc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_pirate.prefab using Guid(40fd7d0e39ddc334c8fa234d4205dc7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee54b126048969d349ad04bbcbcec0b7') in 0.016254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Wander Script/IdleState.cs
+  artifactKey: Guid(d1364d2b58ad7064ba9b0a0f16317924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Wander Script/IdleState.cs using Guid(d1364d2b58ad7064ba9b0a0f16317924) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b37de8d714004fe3e1a180d531a923d') in 0.005434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Particles/birds.prefab
+  artifactKey: Guid(8b295d866d7a36d4a8033d84126dd221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Particles/birds.prefab using Guid(8b295d866d7a36d4a8033d84126dd221) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd964cf0da0272c1f07d17c97f1aa2c2f') in 0.035894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_police.prefab
+  artifactKey: Guid(4d343708bdd39564aa5d01ec80d3ecdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_police.prefab using Guid(4d343708bdd39564aa5d01ec80d3ecdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ac1dbb0b38974a15c6a7f5494575bf9') in 0.015904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_coat_winter.prefab
+  artifactKey: Guid(1ce1c6e8b6c5ab84e930001e0862e1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_coat_winter.prefab using Guid(1ce1c6e8b6c5ab84e930001e0862e1f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e0a970cde92ad7e21ab2dca405ce2c1') in 0.015900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_lumberjack.prefab
+  artifactKey: Guid(4fd12b08cff1cd141b4139a81f28886e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_lumberjack.prefab using Guid(4fd12b08cff1cd141b4139a81f28886e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6284653f07d9cb9ef4f72979520240f') in 0.016223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scripts/PauseMenu.cs
+  artifactKey: Guid(93ca6b7f5dc57d648a71395d62297c38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/PauseMenu.cs using Guid(93ca6b7f5dc57d648a71395d62297c38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e899b8a7c2fce1fcc9dfdf9af76c8788') in 0.005610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000006 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_ski.prefab
+  artifactKey: Guid(f19b534cf6c36ed4b93b11b9b87c07a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_ski.prefab using Guid(f19b534cf6c36ed4b93b11b9b87c07a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '111bdf02a5789a09112690290cc1e639') in 0.015894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_skate.prefab
+  artifactKey: Guid(f8c79f953230bc046987f6f359a7c498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_skate.prefab using Guid(f8c79f953230bc046987f6f359a7c498) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77d90f3158bd43daddf138a7adbaa9b2') in 0.015347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_yeti.prefab
+  artifactKey: Guid(d8834bf2828d97c4c9970ecfae0340eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_yeti.prefab using Guid(d8834bf2828d97c4c9970ecfae0340eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '828dfe6159b4d3cba9a7d1f6792004f9') in 0.015690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_clown.prefab
+  artifactKey: Guid(0b8b9bb575f942546b327265f624927a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_clown.prefab using Guid(0b8b9bb575f942546b327265f624927a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e51b886b5c8200d7459e861f4fa86856') in 0.015012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_claus.prefab
+  artifactKey: Guid(45df065aaf7a3c64f88a6cda584fb849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_claus.prefab using Guid(45df065aaf7a3c64f88a6cda584fb849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1890d579e6b3f4bbded56aac21dd6314') in 0.016634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/atlas-LPAP.mat
+  artifactKey: Guid(f03213e836b6d46eda1d4f0531452375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/atlas-LPAP.mat using Guid(f03213e836b6d46eda1d4f0531452375) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c44e7d27ceaaa6272ab2ae2eb2c4b79') in 0.036150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_astronaut.prefab
+  artifactKey: Guid(866875d7392d53248a8260bf5bc706b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_astronaut.prefab using Guid(866875d7392d53248a8260bf5bc706b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42a04403955231b78562e24b3aab2fed') in 0.018558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_dentist.prefab
+  artifactKey: Guid(2ad34e4571f44474eba4ba7f92d52588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_dentist.prefab using Guid(2ad34e4571f44474eba4ba7f92d52588) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '59b0f31b907690fa25cfd22ea432e587') in 0.016177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Wander Script/AIState.cs
+  artifactKey: Guid(e709b760b06da294f814b370a8307877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Wander Script/AIState.cs using Guid(e709b760b06da294f814b370a8307877) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6532f7f25eaeeafc04013aa5c7009582') in 0.005706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/UI Toolkit/SynthaNovaBlack-JRZv7.ttf
+  artifactKey: Guid(d6c88f7cb7e7d0348bcfaa9aeae578b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/SynthaNovaBlack-JRZv7.ttf using Guid(d6c88f7cb7e7d0348bcfaa9aeae578b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b185d30a3b9a7c37356abea796f04ce6') in 0.008175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_judge.prefab
+  artifactKey: Guid(ecd97f09c1315504e9586ec4482c6f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_judge.prefab using Guid(ecd97f09c1315504e9586ec4482c6f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a668ef96869bc0f764eb82c4ccc7a98f') in 0.016831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_skeleton.prefab
+  artifactKey: Guid(7ae7dcd9704b54d4aa44ea1fa540ba19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_skeleton.prefab using Guid(7ae7dcd9704b54d4aa44ea1fa540ba19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c9222405410289b1a85af008b2b5c34') in 0.016631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_eskimo.prefab
+  artifactKey: Guid(da73f17718256124bb58aeb89de0c129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_eskimo.prefab using Guid(da73f17718256124bb58aeb89de0c129) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd082b515712a7093ba90bbe7a93c1ab8') in 0.016524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/UI Toolkit/SynthaNovaRegular-jE1ql SDF.asset
+  artifactKey: Guid(55e0726792e468642ae50fc50986ba69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/UI Toolkit/SynthaNovaRegular-jE1ql SDF.asset using Guid(55e0726792e468642ae50fc50986ba69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) UnassignedReferenceException: The variable material of TMP_FontAsset has not been assigned.
+You probably need to assign the material variable of the TMP_FontAsset script in the inspector.
+  at (wrapper managed-to-native) UnityEngine.Material.HasProperty(UnityEngine.Material,int)
+  at TMPro.TMP_FontAsset.ReadFontAssetDefinition () [0x0008f] in .\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:588 
+  at TMPro.TMP_FontAsset.OnValidate () [0x00010] in .\Library\PackageCache\com.unity.textmeshpro@3.0.6\Scripts\Runtime\TMP_FontAsset.cs:555 
+UnityEditor.AssetDatabase:LoadMainAssetAtPath(String)
+UnityEditor.Search.AssetIndexer:IndexProperties(Int32&, String&, Boolean&)
+UnityEditor.Search.AssetIndexer:IndexDocument(String, Boolean)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset(AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData(AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.textmeshpro@3.0.6/Scripts/Runtime/TMP_FontAsset.cs Line: 588)
+
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3be9a6ea8b5428eb5e993e9fd112bbd0') in 0.013204 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000009 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png
-  artifactKey: Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_refresh@2x.png using Guid(602b72d4617c3694aa94419fc1b68e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8256f2879f9bcbbc19e4f0fa5ef7eb97') in 0.014818 seconds
+  path: Assets/Scenes/TestScenes/JericTest.unity
+  artifactKey: Guid(eafd11e67c0c1eb4ea164cd141015a1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/TestScenes/JericTest.unity using Guid(eafd11e67c0c1eb4ea164cd141015a1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8160690d875747fefdf36a148bc0853') in 0.004717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_construction_worker.prefab
+  artifactKey: Guid(f597f1dcbb9164a4dbd208a4d876ae4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_construction_worker.prefab using Guid(f597f1dcbb9164a4dbd208a4d876ae4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab220d2c9a4962b2cc6f6cac8b62cb7c') in 0.019764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/man_fire.prefab
+  artifactKey: Guid(30a172856cb07a54eaf0510105548fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/man_fire.prefab using Guid(30a172856cb07a54eaf0510105548fc4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2b0f54d75f58c4a428f66d1de2ee1c6') in 0.017355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Common_KillSwitch.cs
+  artifactKey: Guid(e206305d2c33c424eb12b24eded1362a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Common_KillSwitch.cs using Guid(e206305d2c33c424eb12b24eded1362a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e513af5805bb1cdb37596d710bab4b1') in 0.005783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.350694 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_explorer.prefab
+  artifactKey: Guid(d2aded2d45fad9e49af28640cd2a71c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_explorer.prefab using Guid(d2aded2d45fad9e49af28640cd2a71c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd4586f2506a1068ceeea0a209c19468') in 0.019268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/23 GREY-WHITE-LPAP.mat
+  artifactKey: Guid(579080bda9f89ee42a5447d6d997e266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/23 GREY-WHITE-LPAP.mat using Guid(579080bda9f89ee42a5447d6d997e266) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90ea98ab14a1348f71d8ba8a91df3e86') in 0.007635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_zombie.prefab
+  artifactKey: Guid(167514c6cfa9ab64eb6fd3d68ab58b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_zombie.prefab using Guid(167514c6cfa9ab64eb6fd3d68ab58b72) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5045bfc1280923fc8392a1a98e2aec6a') in 0.023790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 212
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Stats/Wizard.asset
+  artifactKey: Guid(8a30656cc23bd1b42824b6e4d8e046d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Stats/Wizard.asset using Guid(8a30656cc23bd1b42824b6e4d8e046d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e1d8ed4c7d4f2f04ac21e8c41a2716a') in 0.008177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Scripts/LayoutGameobjectInGrid.cs
+  artifactKey: Guid(4236d3803ba27734e8ff6ac6ef560e68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Scripts/LayoutGameobjectInGrid.cs using Guid(4236d3803ba27734e8ff6ac6ef560e68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '686ad8c46e2b7f97555ccb3abfec70bf') in 0.006377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/13 BROWN-LIGHT-LPAP.mat
+  artifactKey: Guid(3193cf6cf65b8a748b1a843c78e6c26d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/13 BROWN-LIGHT-LPAP.mat using Guid(3193cf6cf65b8a748b1a843c78e6c26d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09ee1270a6a63fb6ab22225bfb32b9f3') in 0.008969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_punk.prefab
+  artifactKey: Guid(9c1900b12a6a09748b766d7538c83870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_punk.prefab using Guid(9c1900b12a6a09748b766d7538c83870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72aefe6c8783d6fdccd1aab610ae7899') in 0.018253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_hazard.prefab
+  artifactKey: Guid(2e63204b0a8b6c746a23e4f73abde189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_hazard.prefab using Guid(2e63204b0a8b6c746a23e4f73abde189) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6749f9f9184e2462eb61d044d264e85d') in 0.017649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_pirate.prefab
+  artifactKey: Guid(fa28f6f8a85f8aa4ab6385b6d266b253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_pirate.prefab using Guid(fa28f6f8a85f8aa4ab6385b6d266b253) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '790334ed728353c29a9cd70f49542b26') in 0.018361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/4 SKIN-LPAP-LPAP.mat
+  artifactKey: Guid(e4149755fc1d98a498388cedff353ea8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/4 SKIN-LPAP-LPAP.mat using Guid(e4149755fc1d98a498388cedff353ea8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe97f52752b4b9415d9b3f4ae4eb7194') in 0.006201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- UI/UI_rectangle.png
+  artifactKey: Guid(df26fb727f4145c49bb3f297951f7112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- UI/UI_rectangle.png using Guid(df26fb727f4145c49bb3f297951f7112) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4097ee62b4a4a4b00036be445d04dda5') in 0.020930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- UI/3DText.mat
+  artifactKey: Guid(4e8a904ea6ed5484d853a725fb18d698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- UI/3DText.mat using Guid(4e8a904ea6ed5484d853a725fb18d698) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8e10298bf798aeef57388c6fc319cd4') in 0.007160 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- UI/FaceTexture.renderTexture
+  artifactKey: Guid(489b662402cb5ca49b1210a35eb6c5e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- UI/FaceTexture.renderTexture using Guid(489b662402cb5ca49b1210a35eb6c5e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0028bff7bf5c11dca16bc29555c10c2b') in 0.009622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/30 YELLOW-LPAP.mat
+  artifactKey: Guid(42caffe1132386f4daa037a9663088b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/30 YELLOW-LPAP.mat using Guid(42caffe1132386f4daa037a9663088b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2875e1966032a89a4656208cce9964f6') in 0.007164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_mechanic.prefab
+  artifactKey: Guid(30e84e341120cb041b7fe4933fbd4e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_mechanic.prefab using Guid(30e84e341120cb041b7fe4933fbd4e53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '336848f03e405b1171af299eb4f7fac0') in 0.017972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/47 BLUE-WHITE-LPAP.mat
+  artifactKey: Guid(5f35ae9530edec84085e28d4c3302e29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/47 BLUE-WHITE-LPAP.mat using Guid(5f35ae9530edec84085e28d4c3302e29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2663b319a31762ade84fea4d3d7c9de2') in 0.008285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_superhero.prefab
+  artifactKey: Guid(f15bd6950d83f674da68fca5a244f982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_superhero.prefab using Guid(f15bd6950d83f674da68fca5a244f982) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '793c65c168ce6372dd2074f073b3311e') in 0.015687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Sounds/crowd-walking.ogg
+  artifactKey: Guid(ddec8cf93b66b4785985c0c49e5816a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Sounds/crowd-walking.ogg using Guid(ddec8cf93b66b4785985c0c49e5816a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3911faa57fc00324e89070439fba29d3') in 0.056044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/21 GREY-LIGHT-LPAP.mat
+  artifactKey: Guid(31b29cea830e0e24da72018652e5ed31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/21 GREY-LIGHT-LPAP.mat using Guid(31b29cea830e0e24da72018652e5ed31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '605398a508b324ed2a6982c2cd249faf') in 0.007655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/35 GREEN-MEDIUM-LPAP.mat
+  artifactKey: Guid(87ff71ffc286b91449d2296928632aed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/35 GREEN-MEDIUM-LPAP.mat using Guid(87ff71ffc286b91449d2296928632aed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfcce95861bad0f3d7c09d0b00905a38') in 0.007138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/34 GREEN-DARK-LPAP.mat
+  artifactKey: Guid(2a9bcab9060d28d468fc3c4d93775e7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/34 GREEN-DARK-LPAP.mat using Guid(2a9bcab9060d28d468fc3c4d93775e7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '321c90444b0a8d4e35ee5b5339971cdb') in 0.006153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_race_car_driver.prefab
+  artifactKey: Guid(dfa01be7c5bdd8749898587420ff659f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_race_car_driver.prefab using Guid(dfa01be7c5bdd8749898587420ff659f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e02cfbd0a6f8802d207f5b98df4a6b7') in 0.015809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 222
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/15 BROWN-WHITE-LPAP.mat
+  artifactKey: Guid(f9c4a99059a34d842b70997d0245fde2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/15 BROWN-WHITE-LPAP.mat using Guid(f9c4a99059a34d842b70997d0245fde2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94dcbec6a710dfb4981fd623af863185') in 0.007520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/44 BLUE-LPAP.mat
+  artifactKey: Guid(0d337a70f9e175348909eb917056c239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/44 BLUE-LPAP.mat using Guid(0d337a70f9e175348909eb917056c239) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd9547919b3731c5e8a984e8c5360d07') in 0.006406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_sumo.prefab
+  artifactKey: Guid(6250db810a6c596409ef40e79fd284f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_sumo.prefab using Guid(6250db810a6c596409ef40e79fd284f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6652d1cb9266ad1ee1466a0540905533') in 0.017216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Stats/Generic Human.asset
+  artifactKey: Guid(0c7fa1940c291344a87a5ecedb303336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Stats/Generic Human.asset using Guid(0c7fa1940c291344a87a5ecedb303336) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5414e40011e7d6400483cd9c2cf68e71') in 0.005879 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_ninja.prefab
+  artifactKey: Guid(f580989337185544a956dea6e33743c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_ninja.prefab using Guid(f580989337185544a956dea6e33743c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b7a4d841e2f28d26e57b9fb958530f9') in 0.017925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 228
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_viking.prefab
+  artifactKey: Guid(4b678d600201b194d8f67e8624f1f568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_viking.prefab using Guid(4b678d600201b194d8f67e8624f1f568) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4c969288165165ce9e49fe99dc7955d') in 0.016500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/26 RED-DARK-LPAP.mat
+  artifactKey: Guid(48b31daa83ddb854fadd9402702394e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/26 RED-DARK-LPAP.mat using Guid(48b31daa83ddb854fadd9402702394e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '88e0a11c10d91761efebdcf2d3a7b31e') in 0.007030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_tennis.prefab
+  artifactKey: Guid(78c4f35dc2f46db4cb6e467b32dcf108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_tennis.prefab using Guid(78c4f35dc2f46db4cb6e467b32dcf108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15f91abdb5a1e3bc8cb4fb05040bfb1a') in 0.017096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/14 BROWN LIGHTEST-LPAP.mat
+  artifactKey: Guid(a7862d5615928c34e868320de65c2777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/14 BROWN LIGHTEST-LPAP.mat using Guid(a7862d5615928c34e868320de65c2777) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '997b2b6353648193c8673a14258a28c3') in 0.008611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Stats/Generic Human 2.asset
+  artifactKey: Guid(df9751c3f50884146ba79d1e58dd1354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Stats/Generic Human 2.asset using Guid(df9751c3f50884146ba79d1e58dd1354) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c1da9d275c45bef0f46d61d7786470b') in 0.005473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_judge.prefab
+  artifactKey: Guid(a3fa2db96c5c2a74eaeab5c894cc778b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_judge.prefab using Guid(a3fa2db96c5c2a74eaeab5c894cc778b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29acc9000ec2539cdb787c89481e0775') in 0.016949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 225
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/11 BROWN-MEDIUM-LPAP.mat
+  artifactKey: Guid(0de74cacf6310c64ca1b6862ba4b219c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/11 BROWN-MEDIUM-LPAP.mat using Guid(0de74cacf6310c64ca1b6862ba4b219c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '27a5630f68ee6074ab5c23df55125a8e') in 0.008121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/22 GREY-LIGHTEST-LPAP.mat
+  artifactKey: Guid(c413883b1f5da43f595f8475353613de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/22 GREY-LIGHTEST-LPAP.mat using Guid(c413883b1f5da43f595f8475353613de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32fafad3d77db606b5b22e899735f284') in 0.006762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- UI/UI-animations.png
+  artifactKey: Guid(8a6abc2d357c9ec49a20e27b8907de9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- UI/UI-animations.png using Guid(8a6abc2d357c9ec49a20e27b8907de9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a544019d7715dc00ad039102c711179') in 0.067056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Common/Wander Script/Editor/Common_WanderScriptEditor.cs
+  artifactKey: Guid(1e235d39895656c41a746090c6687ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Wander Script/Editor/Common_WanderScriptEditor.cs using Guid(1e235d39895656c41a746090c6687ad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e4545fdb1d9a75b610387ac0e989679') in 0.006421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Common/Wander Script/Resources/StatsLogo.png
+  artifactKey: Guid(ad3e19ffc0a2c5542ab545b88ef8c3f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Wander Script/Resources/StatsLogo.png using Guid(ad3e19ffc0a2c5542ab545b88ef8c3f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9a9e207e7ef9815f47b8cd93a680cfe') in 0.027541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-boxer.fbx
+  artifactKey: Guid(d93c9a88d3861458f9078b7b24e17394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-boxer.fbx using Guid(d93c9a88d3861458f9078b7b24e17394) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5e3b1635e758bbe2568e95a1f58e35f') in 0.032681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-officer-swat.fbx
+  artifactKey: Guid(0932a8f4fb90ee344b4ac420e201727d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-officer-swat.fbx using Guid(0932a8f4fb90ee344b4ac420e201727d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e4700ea3a70f3e8830f801dd9c71ee2') in 0.013261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-punk.fbx
+  artifactKey: Guid(ff6c7408034f7f049b789c153e19bfef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-punk.fbx using Guid(ff6c7408034f7f049b789c153e19bfef) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e03049b908e92098a0e0d615f10e4f32') in 0.013159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-clown.fbx
+  artifactKey: Guid(e45e311fee5cd4dc7bc9fa3bc1f4cab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-clown.fbx using Guid(e45e311fee5cd4dc7bc9fa3bc1f4cab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6917f895a3ab718434acaf0e680b9778') in 0.012384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-knight.fbx
+  artifactKey: Guid(3224c3178cb1a4d578173bce1e2361f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-knight.fbx using Guid(3224c3178cb1a4d578173bce1e2361f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5168ca78250721b962bfa5ace7be8b54') in 0.012733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-actionhero.fbx
+  artifactKey: Guid(d4b1454c14edc4b428bc84f9000fe1cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-actionhero.fbx using Guid(d4b1454c14edc4b428bc84f9000fe1cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c178ef3b03a7a68df624577a696d53da') in 0.011938 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-ski.fbx
+  artifactKey: Guid(5cfea04217288498b99b84133d1c6cd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-ski.fbx using Guid(5cfea04217288498b99b84133d1c6cd1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f83588e0120ff075b3e7d3d39396429') in 0.010213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-actionhero.fbx
+  artifactKey: Guid(2d09f84ac54c9f641ae912a41075069c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-actionhero.fbx using Guid(2d09f84ac54c9f641ae912a41075069c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3eaace3473147550a71c82a78edf01b') in 0.012126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-plumber.fbx
+  artifactKey: Guid(babbee1b00b430f45a6e651e383543b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-plumber.fbx using Guid(babbee1b00b430f45a6e651e383543b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9feee6a3e55f783a1c3ea5928f077fc') in 0.011528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-explorer.fbx
+  artifactKey: Guid(5ecc42036c76d4764b66770ae1528ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-explorer.fbx using Guid(5ecc42036c76d4764b66770ae1528ac1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19e1c9d25a82c481edba6f3b55c016ca') in 0.011499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Scenes/palm.controller
+  artifactKey: Guid(69d071c9d2606624a996799e32392f70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Scenes/palm.controller using Guid(69d071c9d2606624a996799e32392f70) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4cdb1fa24b28c9fa80e819a491888a90') in 0.008446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-butler.fbx
+  artifactKey: Guid(ce5f6818063f24c5e9508c1c54ba6d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-butler.fbx using Guid(ce5f6818063f24c5e9508c1c54ba6d20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f32eb12ceb87903ad990f0e0fd1893b4') in 0.012387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-business.fbx
+  artifactKey: Guid(6caaebd94a2ac44edbce191d0954d76f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-business.fbx using Guid(6caaebd94a2ac44edbce191d0954d76f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56ab168d44ac736ab90005c01cff10af') in 0.012523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-metalhead.fbx
+  artifactKey: Guid(a89cefccd61374ccfa48e234622a72f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-metalhead.fbx using Guid(a89cefccd61374ccfa48e234622a72f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ab6d410d9af82cf30e3fc5ed369e799') in 0.012558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-pirate.fbx
+  artifactKey: Guid(d8e5f9da96f204bc5beb1ca963111dc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-pirate.fbx using Guid(d8e5f9da96f204bc5beb1ca963111dc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4243ada8a6244dd8ab7279d65bc15b75') in 0.011540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-basketball-player.fbx
+  artifactKey: Guid(5601e57a066b343ecad8d4bedf187766) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-basketball-player.fbx using Guid(5601e57a066b343ecad8d4bedf187766) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87f9a0bca993ead834b43dc22ad3bb58') in 0.011787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Scenes/shark-fin.controller
+  artifactKey: Guid(f2fc292c7a4012345b6e84aaa20ca1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animator Controllers/Scenes/shark-fin.controller using Guid(f2fc292c7a4012345b6e84aaa20ca1da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24091c07536505abdbcf4ea9d4e17870') in 0.006717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-post.fbx
+  artifactKey: Guid(2ce341eed24cc46489ff95be05f7f677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-post.fbx using Guid(2ce341eed24cc46489ff95be05f7f677) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a65289b6506d74539b693f98efabf55') in 0.010960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_reporter.prefab
+  artifactKey: Guid(a5db326fa30f62c4a99b7f41b97cbf96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_reporter.prefab using Guid(a5db326fa30f62c4a99b7f41b97cbf96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77b5733fa203bd4d672abd31958c81eb') in 0.019124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- UI/icons.png
+  artifactKey: Guid(4d12b1b85237ff64dbde305ad7aea589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- UI/icons.png using Guid(4d12b1b85237ff64dbde305ad7aea589) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8a18205b49f0f08190e2d189512675b') in 0.033929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/Common_Animations/Common_Animation_Set.fbx
+  artifactKey: Guid(d83d395fd464b67438cebe05f5bfd990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/Common_Animations/Common_Animation_Set.fbx using Guid(d83d395fd464b67438cebe05f5bfd990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ef5e88ba151a54c3d0be34211a4eae21') in 0.400222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 224
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_yeti_Rig.fbx
+  artifactKey: Guid(4d5b1d7ee423bd44fa9a88ad94d163e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_yeti_Rig.fbx using Guid(4d5b1d7ee423bd44fa9a88ad94d163e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad009621ba97993788188be0ca144e55') in 0.017286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-judge.fbx
+  artifactKey: Guid(d30bb797c5aeaff49975bcb887b8fdb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-judge.fbx using Guid(d30bb797c5aeaff49975bcb887b8fdb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '185e23655935cce05fa0e2ef58b1e9b0') in 0.013263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-homeless.fbx
+  artifactKey: Guid(ed3bab209f320c243ae1bf85f065f774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-homeless.fbx using Guid(ed3bab209f320c243ae1bf85f065f774) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '200e56b5d345f28ac9c0e1452e50fa01') in 0.013306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-mummy.fbx
+  artifactKey: Guid(e1cb3fca5dcb94d018b4d8cfdb6b81b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-mummy.fbx using Guid(e1cb3fca5dcb94d018b4d8cfdb6b81b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45fd6561a3b6cbe4938ff29dd0ac2e42') in 0.011470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_wizard_Rig.fbx
+  artifactKey: Guid(4c9cb398a5b75054985a158fc922241d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_wizard_Rig.fbx using Guid(4c9cb398a5b75054985a158fc922241d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b05386b6f91fe6501a6f39a6453dc6ee') in 0.018744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_carpenter_Rig.fbx
+  artifactKey: Guid(759afc5611b9ff24daf97593f2b5f10f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_carpenter_Rig.fbx using Guid(759afc5611b9ff24daf97593f2b5f10f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2921ead7798b0659c1abf54aa803a319') in 0.016906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-clown.fbx
+  artifactKey: Guid(00f796ac030da49f29d64ce301d4dce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-clown.fbx using Guid(00f796ac030da49f29d64ce301d4dce8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '811f6ed2a51f0c070260e0177a62c2c4') in 0.012514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_fire_Rig.fbx
+  artifactKey: Guid(b186755f7143dd04f92b97bc80918fe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_fire_Rig.fbx using Guid(b186755f7143dd04f92b97bc80918fe1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7cc74230d805e92a58631c2fd39864f8') in 0.020978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-doctor.fbx
+  artifactKey: Guid(4cebbdbf1664543a2a229c520f616970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-doctor.fbx using Guid(4cebbdbf1664543a2a229c520f616970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40e2fa330f4f19c364522293782c4fec') in 0.010743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_viking_Rig.fbx
+  artifactKey: Guid(4dac27c92da206b43b84c163419a3fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_viking_Rig.fbx using Guid(4dac27c92da206b43b84c163419a3fab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '428baeb7ddc80800b6b0921443cc01af') in 0.017574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_judge_Rig.fbx
+  artifactKey: Guid(17e68f9ad43039d478704d9f16e69353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_judge_Rig.fbx using Guid(17e68f9ad43039d478704d9f16e69353) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abdde15d20e84294b9e73704bdcc0fe9') in 0.019935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-farm.fbx
+  artifactKey: Guid(0a7eaa3c45617440da0efc976bb5df99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-farm.fbx using Guid(0a7eaa3c45617440da0efc976bb5df99) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '801e264c19749c891012dd9ad49c5003') in 0.012129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-swimsuit.fbx
+  artifactKey: Guid(2db3034e3e55a45f68d86c42d854b30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-swimsuit.fbx using Guid(2db3034e3e55a45f68d86c42d854b30e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5c556abb93b5e26599400650dff24f7') in 0.012198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/18 GREY-DARK-LPAP.mat
+  artifactKey: Guid(40a353f6117398145a3e785d9854de93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/18 GREY-DARK-LPAP.mat using Guid(40a353f6117398145a3e785d9854de93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03cd58f025b36a03c01f2519b8fde663') in 0.007918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-farm.fbx
+  artifactKey: Guid(670277a27d40a47a7b0c03d3cd44499c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-farm.fbx using Guid(670277a27d40a47a7b0c03d3cd44499c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd745a8814e1e44f683ffca5dd9139e8e') in 0.011754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-basketball-player.fbx
+  artifactKey: Guid(228b35802e4754a4389106339bf31eeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-basketball-player.fbx using Guid(228b35802e4754a4389106339bf31eeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14a3dac1a07d0a0de5c1f6c661e7d883') in 0.011748 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-explorer.fbx
+  artifactKey: Guid(ce948f1a5885c406d99d2ebbc9b9f88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-explorer.fbx using Guid(ce948f1a5885c406d99d2ebbc9b9f88a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e756bead503b2bcc5de76e22dcc03be') in 0.012032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_chef_Rig.fbx
+  artifactKey: Guid(547219531c6d39641acbe83966e76c07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_chef_Rig.fbx using Guid(547219531c6d39641acbe83966e76c07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7fcc7da43b09f171535ab814f4949e09') in 0.016646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_carpenter_Rig.fbx
+  artifactKey: Guid(5f82fafb46a6ff0479680346e8cb2082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_carpenter_Rig.fbx using Guid(5f82fafb46a6ff0479680346e8cb2082) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab2e04e43e87956f9c5bf0aeff32bb6e') in 0.018840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_metalhead_Rig.fbx
+  artifactKey: Guid(ed77baca51e68d34fb7d469b2e6beb26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_metalhead_Rig.fbx using Guid(ed77baca51e68d34fb7d469b2e6beb26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1d5c931983314cf63b7516457a13dde') in 0.019074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/Emission/62 EMISSION-YELLOW-LPAP.mat
+  artifactKey: Guid(6c0d25474dfd33349bfeedd203d2a3e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/Emission/62 EMISSION-YELLOW-LPAP.mat using Guid(6c0d25474dfd33349bfeedd203d2a3e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41712d7afc89b4afaff8be0142ae83be') in 0.007932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_zombie_Rig.fbx
+  artifactKey: Guid(5d14d546c13f1bc48bc3b982b90790ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_zombie_Rig.fbx using Guid(5d14d546c13f1bc48bc3b982b90790ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '140551be78a955d9e53429797f349ff9') in 0.016671 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_dentist_Rig.fbx
+  artifactKey: Guid(b9f471c205e7094489c7c6784e38c5a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_dentist_Rig.fbx using Guid(b9f471c205e7094489c7c6784e38c5a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '112309c0695815fdf182f38730ebfaa9') in 0.018105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- UI/Gizmos/ico-awareness.png
+  artifactKey: Guid(687e8784e75910c4d886b202242785a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- UI/Gizmos/ico-awareness.png using Guid(687e8784e75910c4d886b202242785a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4de46282f78aaad84f9448f6e7c6c21') in 0.017556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_explorer_Rig.fbx
+  artifactKey: Guid(368e0118cc236c84cb7346948a99f086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_explorer_Rig.fbx using Guid(368e0118cc236c84cb7346948a99f086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03b40c7bc614871d76ba4196db62ba5f') in 0.018314 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Boxer/Boxer_Idle.fbx
+  artifactKey: Guid(4dbd25259b6d23345b669b79d14ef903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Boxer/Boxer_Idle.fbx using Guid(4dbd25259b6d23345b669b79d14ef903) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b74d7e2ebcd481c70206e67fb49e3c06') in 0.022394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 170
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_weightlifter_Rig.fbx
+  artifactKey: Guid(0e9ffcae1abd8b54eba82d9640d79e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_weightlifter_Rig.fbx using Guid(0e9ffcae1abd8b54eba82d9640d79e9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64eb4dcfa30e05bdc3f52ccaa1f2ecd7') in 0.021248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Textures/Environment/flash.png
+  artifactKey: Guid(5a768ee016f3c73488fa11dabe2c41f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Textures/Environment/flash.png using Guid(5a768ee016f3c73488fa11dabe2c41f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cdfe93ad0e7db20e3901e41bf4fe42a4') in 0.018719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Locomotion/Walk_Left.fbx
+  artifactKey: Guid(5c74bd6d11fd1ed4485f25b6c3491875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Locomotion/Walk_Left.fbx using Guid(5c74bd6d11fd1ed4485f25b6c3491875) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '862b83b5423d0e8e15456869cc228b83') in 0.020924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 174
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_claus_Rig.fbx
+  artifactKey: Guid(befb0df652b75f04a9e9eb3cf40901a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_claus_Rig.fbx using Guid(befb0df652b75f04a9e9eb3cf40901a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8ef4801b0d252ade7ab2e2392011ef9') in 0.020094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Scripts/AtlasGenerator/Atlas Generator.prefab
+  artifactKey: Guid(f9f02f2cd4beacf40b1d1db2415e3c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Scripts/AtlasGenerator/Atlas Generator.prefab using Guid(f9f02f2cd4beacf40b1d1db2415e3c0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b28ef6f670746478c691a2ff48194eb') in 0.007940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_plumber_Rig.fbx
+  artifactKey: Guid(220284475a01ebd41b014275cedb0f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_plumber_Rig.fbx using Guid(220284475a01ebd41b014275cedb0f48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc77bd6a1bdf9d4154c2b6983b725e87') in 0.020706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_doctor_Rig.fbx
+  artifactKey: Guid(471646de2cce0ef40a7388ca9163eace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_doctor_Rig.fbx using Guid(471646de2cce0ef40a7388ca9163eace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e920a0516694277b1d328333dd5514ee') in 0.020147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Locomotion/Walk_Crouching.fbx
+  artifactKey: Guid(a9d20530e2cd99c488b735598947692b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Locomotion/Walk_Crouching.fbx using Guid(a9d20530e2cd99c488b735598947692b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fbfd1cf4267b20f820547b01cf60b3e') in 0.020450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Idles/Idle_Crouching.fbx
+  artifactKey: Guid(99f83adf5136ed747888195f25ab0324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Idles/Idle_Crouching.fbx using Guid(99f83adf5136ed747888195f25ab0324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1986a2b5f4dc9be8f6c7d530f3e01ff') in 0.019213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_swimsuit_Rig.fbx
+  artifactKey: Guid(7b4c0e3fb5d4b194a8e495f4c73b324d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_swimsuit_Rig.fbx using Guid(7b4c0e3fb5d4b194a8e495f4c73b324d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c93941b15a8eff1d55071204a9924b9a') in 0.017638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_clown_Rig.fbx
+  artifactKey: Guid(8677eca6386ce6546b5b5cb072d9035e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_clown_Rig.fbx using Guid(8677eca6386ce6546b5b5cb072d9035e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74ed4af804bbd1f306078fcf32b7aed8') in 0.021205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Scripts/3RD Person Character Controller/PlayerController.cs
+  artifactKey: Guid(023341e7f64f22d47970c270399d98cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Scripts/3RD Person Character Controller/PlayerController.cs using Guid(023341e7f64f22d47970c270399d98cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '711b59fb735d6d0252dc28dc01a8c9cd') in 0.005933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_hazard_Rig.fbx
+  artifactKey: Guid(e2acabfe147dfe740894095bc455316d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_hazard_Rig.fbx using Guid(e2acabfe147dfe740894095bc455316d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '782b73671cda9ee9d354b711831bbf7e') in 0.017803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Textures/Environment/crow_sprite.png
+  artifactKey: Guid(3ea8c9addd586504c916b0f043380beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Textures/Environment/crow_sprite.png using Guid(3ea8c9addd586504c916b0f043380beb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3fa29eef7150a3c689aa2557b156289') in 0.019921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Attack/Punch_LeftHand.fbx
+  artifactKey: Guid(1430bf2b666c5dc45912696f70f4ab56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Attack/Punch_LeftHand.fbx using Guid(1430bf2b666c5dc45912696f70f4ab56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e7bb0d639db68c09eaf8f9348036765') in 0.018942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 130
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_cyclist_Rig.fbx
+  artifactKey: Guid(69fe7ae5276752d4dad47e2e94317ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_cyclist_Rig.fbx using Guid(69fe7ae5276752d4dad47e2e94317ed9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c949226b85c89e851bd2fb0b54531289') in 0.019508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_mummy_Rig.fbx
+  artifactKey: Guid(5bda24ae2172d244ea002d0a3f072585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_mummy_Rig.fbx using Guid(5bda24ae2172d244ea002d0a3f072585) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45f35558008c8ca771b2dd93dbfd3a04') in 0.018258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/10 BROWN-DARK-LPAP.mat
+  artifactKey: Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/10 BROWN-DARK-LPAP.mat using Guid(6e3ac6e47b4d7a44685dfef9bf209413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f953fd49cee0ff3f5fc8517a739e4acb') in 0.007866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_race_car_driver_Rig.fbx
+  artifactKey: Guid(0321216a8378ada4780231cf5178f5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_race_car_driver_Rig.fbx using Guid(0321216a8378ada4780231cf5178f5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e96979fef9c7f8de79ffb6a0a14769f3') in 0.017173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/planet-sea.fbx
+  artifactKey: Guid(6752c7e819c79154abca56a62982a51b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/planet-sea.fbx using Guid(6752c7e819c79154abca56a62982a51b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '94345050de553d546058f43f11fd0572') in 0.012209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Scripts/AtlasGenerator/Editor/AtlasEditor.cs
+  artifactKey: Guid(269de555aac9ac64593a673f7b2091b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Scripts/AtlasGenerator/Editor/AtlasEditor.cs using Guid(269de555aac9ac64593a673f7b2091b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79250f92b307bf525ef7b2c6a1c7a67d') in 0.007270 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Wizard/Wizard_Attack.fbx
+  artifactKey: Guid(cd400c9d5a4dc1e48b831830f093099f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Wizard/Wizard_Attack.fbx using Guid(cd400c9d5a4dc1e48b831830f093099f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6c63342d19ff143c474d0f5c1c292d66') in 0.019177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 169
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/island.fbx
+  artifactKey: Guid(6f88a256516292a43a44c63308d20e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/island.fbx using Guid(6f88a256516292a43a44c63308d20e57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f97c5daab7b5cbb6a9a6f5df1abf6b9') in 0.012502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Items/tennis-racket.fbx
+  artifactKey: Guid(1056a435556e14ce68aac155ef3668d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Items/tennis-racket.fbx using Guid(1056a435556e14ce68aac155ef3668d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a7e6c0be7afe9dcc63841e0ee241997') in 0.012808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/oil-drum-demaged.fbx
+  artifactKey: Guid(fe027b143936e95418d2d7b2ddf9a754) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/oil-drum-demaged.fbx using Guid(fe027b143936e95418d2d7b2ddf9a754) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84741af6d033dea92dea31e72547bdd1') in 0.012415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/boundary.fbx
+  artifactKey: Guid(e859a96edd005c54e9409989ee12d389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/boundary.fbx using Guid(e859a96edd005c54e9409989ee12d389) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90b6ace6b79455d073f4ae81d4c2ab8d') in 0.012149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/pole-electric.fbx
+  artifactKey: Guid(ad21b9bbb27d28a49964cf32ec6a6bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/pole-electric.fbx using Guid(ad21b9bbb27d28a49964cf32ec6a6bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b564adad65d6e0cf4b8cf5604f6b9ebb') in 0.024883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/car-taxi.fbx
+  artifactKey: Guid(468e9e78270ee2f4a92e885e48f4e52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/Scene/car-taxi.fbx using Guid(468e9e78270ee2f4a92e885e48f4e52a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '012539ed1ae2716cdf96563e8382f977') in 0.097253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Pirate/Pirate_Idle.anim
+  artifactKey: Guid(6cdb8f29cb338ee408fe24d4024ea08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Pirate/Pirate_Idle.anim using Guid(6cdb8f29cb338ee408fe24d4024ea08e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d69affcfe8abe3d682b61474c7b1f26') in 0.012859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/polyperfect/Common/Materials/Colors/43 BLUE-MEDIUM-LPAP.mat
+  artifactKey: Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Common/Materials/Colors/43 BLUE-MEDIUM-LPAP.mat using Guid(4ea8e2de4ac6b564c98a36f67a2ad64f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7db5647da154e744cf6a777ef20bfb0') in 0.006560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Stats/Pirate.asset
+  artifactKey: Guid(1807b4ee1c2e69e47a2a03416f003879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Stats/Pirate.asset using Guid(1807b4ee1c2e69e47a2a03416f003879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2feb47791e5cf46a60b073b447fb34f4') in 0.005554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-superhero.fbx
+  artifactKey: Guid(fe7e76a1c7314724a9874a26fce2af7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/man-superhero.fbx using Guid(fe7e76a1c7314724a9874a26fce2af7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6afe7a342a4d69b21d5282c6b03b2c0') in 0.013381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_pirate_Rig.fbx
+  artifactKey: Guid(92888890e237e314196c91e6f79609f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/woman_pirate_Rig.fbx using Guid(92888890e237e314196c91e6f79609f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '82691e129cfab86eef8155b14d22df89') in 0.017793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_knight_Rig.fbx
+  artifactKey: Guid(08e0bd053ce49474eb33e3823f867b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_knight_Rig.fbx using Guid(08e0bd053ce49474eb33e3823f867b07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c2aa31c14cdf863a1c531b32c51d8b0') in 0.017222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Scripts/Bone Mapping/Mixamo Bone Mapping.ht
+  artifactKey: Guid(c6db5b4e3fe8ba640bdbaa13acaf68c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Scripts/Bone Mapping/Mixamo Bone Mapping.ht using Guid(c6db5b4e3fe8ba640bdbaa13acaf68c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c8c0fbfa81ee65fbe3dba6c59d45d354') in 0.005580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_swimsuit_Rig.fbx
+  artifactKey: Guid(8044169d2fb3b874995f70563e94f967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Rigs/man_swimsuit_Rig.fbx using Guid(8044169d2fb3b874995f70563e94f967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '215f01dec6617cc6ac51c87c705b3abe') in 0.018642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 180
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_large.prefab
+  artifactKey: Guid(e8f8b4cc3dce5274da88cb93692a1cac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Prefabs/woman_large.prefab using Guid(e8f8b4cc3dce5274da88cb93692a1cac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c7d9816252351fcaab87d204aee42a8c') in 0.018074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 226
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Idles/Idle_HardDay.fbx
+  artifactKey: Guid(8bd9e4e04899ecc4ea8078513ef72cd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Animations/In Place/Idles/Idle_HardDay.fbx using Guid(8bd9e4e04899ecc4ea8078513ef72cd8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d8746bce392604a2823818b9990971e') in 0.019924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 129
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Textures/Environment/Rays_COL_256.png
+  artifactKey: Guid(c86e79679a449514ebdbce531153412e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Textures/Environment/Rays_COL_256.png using Guid(c86e79679a449514ebdbce531153412e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30d3d685a8f9a41b93c62ab470909437') in 0.019311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-dentist.fbx
+  artifactKey: Guid(44c4097d7c117fc41857ccdc4bca77db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/polyperfect/Low Poly Animated People/- Models/Meshes/woman-dentist.fbx using Guid(44c4097d7c117fc41857ccdc4bca77db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd11672642cf653f87cebaa3fdf1d250') in 0.013005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.320 seconds
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1005ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (688ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (285ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3601.
+Memory consumption went from 127.6 MB to 127.6 MB.
+Total: 2.478500 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.057600 ms MarkObjects: 2.203200 ms  DeleteObjects: 0.036200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.318 seconds
+Refreshing native plugins compatible for Editor in 3.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 1000ms
+	BeginReloadAssembly (115ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (149ms)
+		LoadAssemblies (200ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (277ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (13ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3604.
+Memory consumption went from 129.8 MB to 129.8 MB.
+Total: 2.075700 ms (FindLiveObjects: 0.144900 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.830900 ms  DeleteObjects: 0.040000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.318 seconds
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 998ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (9ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (683ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (279ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (199ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3123 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3607.
+Memory consumption went from 131.8 MB to 131.7 MB.
+Total: 2.581400 ms (FindLiveObjects: 0.277900 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.186300 ms  DeleteObjects: 0.039500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

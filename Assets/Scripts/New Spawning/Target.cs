@@ -7,6 +7,7 @@ public class Target : MonoBehaviour
     public void Hit()
     {
         transform.position = TargetBounds.Instance.GetRandomPosition();
+        Debug.Log("Hit");
     }
 
     void Awake()

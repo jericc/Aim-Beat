@@ -23,14 +23,14 @@ public class TargetBounds : MonoBehaviour
         float minY = center.y - col.size.y / 2f;
         float maxY = center.y + col.size.y / 2f;
 
-        float minZ = center.z - col.size.z / 2f;
-        float maxZ = center.z + col.size.z / 2f;
+        // float minZ = center.z - col.size.z / 2f;
+        // float maxZ = center.z + col.size.z / 2f;
 
-        float randomX = Random.Range(minZ, maxX);
+        float randomX = Random.Range(minX, maxX);
         float randomY = Random.Range(minY, maxY);
-        float randomZ = Random.Range(minZ, maxZ);
+        // float randomZ = Random.Range(minZ, maxZ);
 
-        Vector3 randomPosition = new Vector3(randomX, randomY, randomZ);
+        Vector3 randomPosition = new Vector3(randomX, randomY, -30.552f);
 
         return randomPosition;
     }
