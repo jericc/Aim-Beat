@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UIElements;
+using UnityEngine.SceneManagement; 
 
 public class MainMenu : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class MainMenu : MonoBehaviour
     private Button exitButton;
     private Button songSelectBackButton;
     private Button settingsBackButton;
+    private Button playSongButton;
     private VisualElement mainMenuPanel;
     private VisualElement songSelectPanel;
     private VisualElement settingsMenu; 
@@ -26,6 +28,8 @@ public class MainMenu : MonoBehaviour
         exitButton = document.rootVisualElement.Q<Button>("ExitButton");
         songSelectBackButton = document.rootVisualElement.Q<Button>("SongSelectBackButton");
         settingsBackButton = document.rootVisualElement.Q<Button>("SettingsBackButton");
+        playSongButton = document.rootVisualElement.Q<Button>("PlaySongButton");
+        
 
         // hide song select and settings at start
         songSelectPanel.style.display = DisplayStyle.None;
@@ -37,6 +41,7 @@ public class MainMenu : MonoBehaviour
         exitButton.clicked += ExitButtonClicked;
         songSelectBackButton.clicked += SongSelectBackButtonClicked;
         settingsBackButton.clicked += SettingsBackButtonClicked;
+        playSongButton.clicked += PlaySongButtonClicked;
     }
 
     private void PlayButtonClicked()
@@ -66,5 +71,9 @@ public class MainMenu : MonoBehaviour
     {
         settingsMenu.style.display = DisplayStyle.None;
         mainMenuPanel.style.display = DisplayStyle.Flex;
+    }
+    private void PlaySongButtonClicked()
+    {
+        SceneManager.LoadScene("One More Time");
     }
 }

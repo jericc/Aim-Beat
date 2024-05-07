@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/TestScenes/New Scene.unity
+- path: Assets/Scenes/TestScenes/One More Time.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

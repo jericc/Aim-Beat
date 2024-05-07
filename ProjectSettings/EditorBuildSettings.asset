@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/One More Time.unity
+    guid: 2b7589775a2f0054ba445dc817a496e6
+  - enabled: 1
+    path: Assets/Scenes/TestScenes/MainMenu.unity
+    guid: eafd11e67c0c1eb4ea164cd141015a1e
   m_configObjects: {}

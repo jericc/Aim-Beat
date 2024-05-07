@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; // For scene management
+using UnityEngine.SceneManagement; 
 using UnityEngine.UIElements;
 
 public class PauseMenu : MonoBehaviour
@@ -14,14 +14,15 @@ public class PauseMenu : MonoBehaviour
     private VisualElement pauseMenuPanel;
     private VisualElement settingsMenu; 
     private bool isPaused = false;
-
-    void Start()
+    public AudioSource gameMusic; 
+     void Start()
     {
         pauseMenuPanel.style.display = DisplayStyle.None;
         settingsMenu.style.display = DisplayStyle.None;
     }
     void Awake()
     {
+        document = GetComponent<UIDocument>();
         pauseMenuPanel = document.rootVisualElement.Q<VisualElement>("PauseMenu");
         settingsMenu = document.rootVisualElement.Q<VisualElement>("SettingsMenu"); 
         resumeButton = document.rootVisualElement.Q<Button>("ResumeButton");
@@ -29,11 +30,13 @@ public class PauseMenu : MonoBehaviour
         homeButton = document.rootVisualElement.Q<Button>("HomeButton");
         settingsBackButton = document.rootVisualElement.Q<Button>("SettingsBackButton");
 
-        //event listeners
+        // Event listeners
         homeButton.clicked += HomeButtonClicked;
         settingsButton.clicked += SettingsButtonClicked;
         resumeButton.clicked += ResumeButtonClicked;
+        settingsBackButton.clicked += SettingsBackButtonClicked;
     }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -57,16 +60,23 @@ public class PauseMenu : MonoBehaviour
     public void PauseButtonClicked()
     {
         pauseMenuPanel.style.display = DisplayStyle.Flex;
-        Time.timeScale = 0f; //pause
+        settingsMenu.style.display = DisplayStyle.None;
+        Time.timeScale = 0f; 
+        gameMusic.Pause(); 
         isPaused = true;
+        UnityEngine.Cursor.lockState = UnityEngine.CursorLockMode.None; 
+        UnityEngine.Cursor.visible = true; 
     }
 
     public void ResumeButtonClicked()
     {
         pauseMenuPanel.style.display = DisplayStyle.None;
         settingsMenu.style.display = DisplayStyle.None;
-        Time.timeScale = 1f; //unpause
+        Time.timeScale = 1f; // Unpause the game
+        gameMusic.Play(); // Resume the audio
         isPaused = false;
+        UnityEngine.Cursor.lockState = UnityEngine.CursorLockMode.Locked; 
+        UnityEngine.Cursor.visible = false; // Hide cursor
     }
 
     public void SettingsButtonClicked()
@@ -77,8 +87,13 @@ public class PauseMenu : MonoBehaviour
 
     public void HomeButtonClicked()
     {
-        Time.timeScale = 1f; // reset time
+        Time.timeScale = 1f; 
         SceneManager.LoadScene("MainMenu"); 
     }
 
+    public void SettingsBackButtonClicked()
+    {
+        settingsMenu.style.display = DisplayStyle.None;
+        pauseMenuPanel.style.display = DisplayStyle.Flex;
+    }
 }

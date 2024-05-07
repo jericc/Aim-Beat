@@ -7,7 +7,11 @@ public class TargetShooter : MonoBehaviour
     [SerializeField] Camera cam;
     public float rayLength = 100f; 
     public Color rayColor = Color.red; 
-
+    private SpawnManager spawnManager;
+    void Start()
+    {
+        spawnManager = FindObjectOfType<SpawnManager>();
+    }
     void Update()
     {
         if (Input.GetMouseButtonDown(0))

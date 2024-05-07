@@ -1,17 +1,21 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class Target : MonoBehaviour
 {
-    public void Hit()
+    private SpawnManager spawnManager;
+
+    void Start()
     {
-        transform.position = TargetBounds.Instance.GetRandomPosition();
-        Debug.Log("Hit");
+        spawnManager = FindObjectOfType<SpawnManager>();
     }
 
-    void Awake()
+    public void Hit()
     {
+        // Notify SpawnManager about the hit
+        spawnManager.TargetHit();
         transform.position = TargetBounds.Instance.GetRandomPosition();
+        Debug.Log("SpawnManager notified of target hit.");
     }
 }
+
